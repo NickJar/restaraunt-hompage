@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#content{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#body{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.heroIMG{
+    width: 750px;
+}
+.menuIMG{
+    width: 400px;
+}
+.aboutUs{
+    max-width: 700px;
+}
+
+.header{
+    height: 120px;
+    width: 100%;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(84, 84, 84);
+}
+.nav{
+    display: flex;
+    text-decoration: underline;
+    gap: 50px;
+}
+.image{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px; */
+}
+
+button{
+    all: unset;
+}
